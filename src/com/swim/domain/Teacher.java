@@ -6,6 +6,8 @@ public class Teacher {
 	private String teacherbrief;//教师简介
 	private String teacherpassword;//教室账户密码 
 	private String img;//教师头像地址
+	
+	
 	public int getTid() {
 		return tid;
 	}

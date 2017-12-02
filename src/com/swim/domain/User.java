@@ -5,12 +5,15 @@ package com.swim.domain;
  *
  */
 public class User {
-	private int uid;//学生唯一编号，数据库主键、
+	private int uid;//学生唯一编号，数据库主键、	
+	private String usersex;//性别
+	private int userage;//年龄
 	private String userid;//用户帐号
 	private String username;//用户昵称
 	private String userpassword;//用户密码
 	private String img;//用户头像地址
 	private String content;//自我介绍
+	
 	private String education;//用户学历
 	private String tele;//用户电话
 	private String email;//用户电子邮件
@@ -68,6 +71,18 @@ public class User {
 	}
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	public String getUsersex() {
+		return usersex;
+	}
+	public void setUsersex(String usersex) {
+		this.usersex = usersex;
+	}
+	public int getUserage() {
+		return userage;
+	}
+	public void setUserage(int userage) {
+		this.userage = userage;
 	}
 	
 	
