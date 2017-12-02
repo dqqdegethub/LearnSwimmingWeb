@@ -1,6 +1,6 @@
 package com.swim.domain;
 
-public class dainzanorfandui {
+public class dianzanorfandui {
 		
 	private int ccid;//Ìû×Ó±àºÅ
 	private int uid;//ÓÃ»§±àºÅ
